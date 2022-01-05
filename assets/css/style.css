@@ -1,0 +1,246 @@
+/* Assets:
+Font: Merriweather, Lato
+Farbe: #202020, #24bff2, #fff, #F5FBFE.
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b
+ */
+/* 
+ font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Merriweather&display=swap');
+
+ /*-------------GENERAL FORMATTING----------------*/
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+body{
+  background-color: #fff;
+}
+
+/* <!-- HEADER NAV --> */
+header {
+  height:6vh;
+}
+header nav{
+  text-align: right;
+}
+header nav li{
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+
+a{
+  color:dimgray;
+}
+a:hover{
+  color:#24bff2;
+}
+
+/* <!---------------------- SECTION 1 ---------------------> */
+section:nth-of-type(1){
+  margin-left: 9rem;
+}
+
+h1{
+  font-size: 3.5rem;
+  padding-bottom: 2rem;
+}
+
+p{
+  font-size:1.6rem;
+  line-height: 3rem;
+  padding-bottom: 4rem;
+}
+
+/* <!----- SECTION 1 beide DIVs als Inline-Block formatieren -------> */
+article div{
+  display:inline-block;
+  padding-bottom: 10rem;
+}
+
+/* <!----- SECTION 1 Text links -------> */
+section:nth-of-type(1) article div:nth-of-type(1){ 
+  width:46vw;
+  margin-right:80px;
+}
+
+/* <!----- SECTION 1 Buttons -------> */
+section:nth-of-type(1) a{
+  border:1px solid rgb(226, 226, 226);
+  padding:1.2rem 2rem;
+  margin-right: 1rem;
+  font-size:1.5rem;
+  border-radius:5px;
+  box-shadow: 5px 5px 5px #c9cfd1;
+}
+
+section:nth-of-type(1) a:nth-of-type(1){
+  background-color: black;
+  color:white;
+}
+
+section:nth-of-type(1) a:nth-of-type(1):hover{
+  background-color: #24bff2;
+  color:white;
+}
+
+/* <!----- SECTION 1 Bild rechts -------> */
+article div:nth-of-type(2) img{
+  width:35vw;
+}
+
+/* <!---------------------- SECTION 2 ---------------------> */
+
+section:nth-of-type(2){
+  margin-left: 9rem;
+  margin-right: 9rem;
+}
+section:nth-of-type(2) article{
+  display:inline-block;
+}
+
+/* <!----- SECTION 2 Bild links -------> */
+section:nth-of-type(2) article:nth-of-type(1){
+  width:38%;
+  margin-right:4rem;
+  margin-bottom:20rem;
+}
+
+/* <!----- SECTION 2 Text rechts -------> */
+section:nth-of-type(2) article:nth-of-type(2){
+  width:55%;
+}
+
+section:nth-of-type(2) article:nth-of-type(1) img{
+  width:100%;
+}
+
+/* <!---------------------- SECTION 3 ---------------------> */
+
+section:nth-of-type(3){
+  margin-left: 9rem;
+  margin-right: 9rem;
+}
+section:nth-of-type(3) article{
+  display:inline-block;
+}
+
+/* <!----- SECTION 3 Text links -------> */
+section:nth-of-type(3) article:nth-of-type(1){
+  width:55%;  
+  margin-right:4rem;
+  margin-bottom:20rem;
+}
+
+/* <!----- SECTION 3 Bild rechts -------> */
+section:nth-of-type(3) article:nth-of-type(2){
+  width:38%;
+}
+
+section:nth-of-type(3) article:nth-of-type(2) img{
+  width:100%;
+}
+
+/* <!---------------------- SECTION 4 : Illustration for application (ALIGN CENTER) ---------------------> */
+
+section:nth-of-type(1n +4),
+footer {
+  text-align: center;
+  margin-left: 9rem;
+  margin-right: 9rem;
+}
+
+section:nth-of-type(4) article{
+  width:100%;
+}
+
+section:nth-of-type(4) img{
+  width:33%;
+}
+
+/* <!---------------------- SECTION 5 Examples of use (6 images) ---------------------> */
+
+section:nth-of-type(5) img{
+  width: 48%;
+  margin-right:1rem;
+  margin-bottom:1rem;
+}
+section:nth-of-type(5) p{
+  width: 80%;
+  margin:0 auto;
+}
+
+/* <!---------------------- SECTION 6 Download illustrations ---------------------> */
+
+section:nth-of-type(6) h1{
+  margin-top:10rem;
+}
+section:nth-of-type(6) p{
+  width:80%;
+  margin: 0 auto;
+}
+/* <!----- SECTION 6 Membership Card -------> */
+
+section:nth-of-type(6) div{
+  border:1px solid gray;
+  border-radius: 10px;
+  padding:3.5rem 5rem;
+  background-color: #e8ebec88;
+}
+
+section:nth-of-type(6) h3{
+  font-size:2rem;
+  line-height: 8rem;
+}
+
+section:nth-of-type(6) h4{
+  font-size:6rem;
+  line-height: 8rem;
+}
+
+section:nth-of-type(6) h4>span{
+  font-size:2rem;
+  color:gray;
+}
+
+section:nth-of-type(6) li{
+  font-size:1.5rem;
+  line-height: 2.5rem;
+}
+section:nth-of-type(6) a{
+  display:inline-block;
+  font-size:1.5rem;
+  background-color: #24bff2;
+  color:white;
+  padding: 2rem 6rem;
+  margin:3rem 0 1rem;
+  border-radius: 10px;
+}
+
+/* <!---------------------- FOOTER ---------------------> */
+footer{
+  margin-top:10rem;
+}
+footer p:nth-of-type(1),
+footer p:nth-of-type(2) {
+  color:#888b8b88;
+  padding-bottom:1.5rem;
+}
+
+footer a{
+  display:inline-block;
+  font-size:1.6rem;
+  padding-bottom:1.5rem;
+  color:black;
+}
+
+footer li{
+  display:inline-block
+}
