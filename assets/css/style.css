@@ -180,6 +180,10 @@ section:nth-of-type(5) p{
   margin:0 auto;
 }
 
+section:nth-of-type(5) img:hover{
+  box-shadow: 0.5rem 0.5rem 0.8rem gray;
+}
+
 /* <!---------------------- SECTION 6 Download illustrations ---------------------> */
 
 section:nth-of-type(6) h1{
