@@ -242,5 +242,23 @@ footer a{
 }
 
 footer li{
-  display:inline-block
+  display:inline-block;
+  padding-right:1rem;
 }
+
+.fab{
+  font-size:2rem;
+}
+.fa-facebook-square{
+  color:#3b5998;
+}
+.fa-instagram-square{
+  color:#fcaf45;
+}
+.fa-twitter-square{
+  color:#55acee;
+}
+.fa-youtube-square{
+  color:#c4302b;
+}
+
